@@ -11,6 +11,10 @@ Being tested on an ESP32 Wrover-E module
 
 The code uses the Arduino library (for now) and can be uploaded using the arduino IDE. 
 
+### Plans and Updates
+- The capture should use the DMA controller through I2S for faster speeds
+- Triggers etc need to be implemented
+
 to recive the data over the seral port I am using [PulseView](https://sigrok.org/wiki/PulseView) the software has an 'OpenBench Logic Sniffer & SUMP compatibles (ols)' option.
 
 ### Examples
